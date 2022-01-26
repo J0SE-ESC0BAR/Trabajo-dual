@@ -92,7 +92,7 @@ body{
 .hero {
   background-color: #0300aa;
   position: relative;
-  height: 100vh;
+  height: auto;
   overflow: hidden;
   font-family: 'Montserrat', sans-serif;
 }
@@ -205,16 +205,17 @@ body{
 }
 
 .content {
-  background-color:rgb(255, 255, 255);
+  position: relative;
+  height: auto;
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+
   border-radius:.25em;
   box-shadow:0 0 .25em rgba(0,0,0,.25);
   box-sizing:border-box;
-  left:50%;
-  padding:10vmin;
-  position:fixed;
+  left:auto;
   text-align:center;
-  top:50%;
-  transform:translate(-20%, -20%);
+  top:auto;
 }
 
 h1 {
