@@ -40,6 +40,7 @@ display: block;
 
 footer {
   /*Pie de página*/
+  text-align: center;
 }
 
 html{
@@ -90,7 +91,7 @@ body{
 /*CSS fondo animado*/
 @import url("https://fonts.googleapis.com/css?family=Montserrat:700");
 .hero {
-  background-color: #0300aa;
+  background: linear-gradient(#09b74c, #2e2727);
   position: relative;
   height: auto;
   overflow: hidden;
