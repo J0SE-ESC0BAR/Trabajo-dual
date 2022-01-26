@@ -1,12 +1,12 @@
 [class*="con"]{
-    border: 3px solid steelblue;
+    border: 2px solid rgb(0, 0, 0);
 }
 
 /*Fondo animado index*/
 /*CSS fondo animado*/
 @import url("https://fonts.googleapis.com/css?family=Montserrat:700");
 .hero {
-  background: linear-gradient(#09b74c, #2e2727);
+  background: linear-gradient(#09b74c, #699096);
   position: relative;
   height: auto;
   overflow: hidden;
