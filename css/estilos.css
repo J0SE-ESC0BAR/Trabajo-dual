@@ -40,8 +40,6 @@ display: block;
 
 footer {
   /*Pie de página*/
-  background-color: rgb(0, 117, 212);
-  clear: both;
 }
 
 html{
@@ -92,7 +90,7 @@ body{
 /*CSS fondo animado*/
 @import url("https://fonts.googleapis.com/css?family=Montserrat:700");
 .hero {
-  background-color: #0040C1;
+  background-color: #0300aa;
   position: relative;
   height: 100vh;
   overflow: hidden;
@@ -116,7 +114,7 @@ body{
   left: 45vw;
   width: 10px;
   height: 10px;
-  border: solid 1px #003298;
+  border: solid 1px #00982e2a;
   -webkit-transform-origin: top left;
           transform-origin: top left;
   -webkit-transform: scale(0) rotate(0deg) translate(-50%, -50%);
@@ -125,7 +123,7 @@ body{
           animation: cube 12s ease-in forwards infinite;
 }
 .cube:nth-child(2n) {
-  border-color: #0051f4;
+  border-color: #96f4002a;
 }
 .cube:nth-child(2) {
   -webkit-animation-delay: 2s;
@@ -181,5 +179,53 @@ body{
     -webkit-transform: scale(20) rotate(960deg) translate(-50%, -50%);
             transform: scale(20) rotate(960deg) translate(-50%, -50%);
     opacity: 0;
+  }
+}
+
+
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+.content {
+  background-color:rgb(255, 255, 255);
+  border-radius:.25em;
+  box-shadow:0 0 .25em rgba(0,0,0,.25);
+  box-sizing:border-box;
+  left:50%;
+  padding:10vmin;
+  position:fixed;
+  text-align:center;
+  top:50%;
+  transform:translate(-20%, -20%);
+}
+
+h1 {
+  font-family:monospace;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
   }
 }
