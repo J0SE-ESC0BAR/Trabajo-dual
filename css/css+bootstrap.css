@@ -2,11 +2,15 @@
 .container {
     background: rgb(36, 46, 73);
     color: rgb(255, 255, 255);
+    height: auto;
+    width: auto;
+    border-radius: 10px;
 }
 
 /*Modifica la barra de navegacion*/
 .navbar{
-    background-color: rgb(202, 45, 45);
+    background-color: currentColor;
+    border-radius: 10px;
 }
 
 body{
