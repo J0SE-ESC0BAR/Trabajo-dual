@@ -9,6 +9,7 @@
 }
 
 nav {
+  margin: 0px 0px 1000px 0px;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 10px 10px 10px 10px;
   border:3px solid black ;
@@ -17,10 +18,10 @@ nav {
 }
 
 nav a{
+  margin: 10px 10px 20px 10px;
   background-color:rgb(27, 88, 99);
   border-radius: 10px 0 10px 0;
 color: rgb(79, 250, 0);
-margin: 10px;
 padding: 10px;
 text-decoration: none;
 display: block;
