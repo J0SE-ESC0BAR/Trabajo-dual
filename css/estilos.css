@@ -25,8 +25,10 @@ color: rgb(79, 250, 0);
 padding: 10px;
 text-decoration: none;
 display: block;
-
 }
+
+
+
 
 #c {
   /*Cuerpo*/
@@ -45,7 +47,7 @@ display: block;
 footer {
   /*Pie de página*/
   text-align: center;
-  background-color: black!important;
+  ;
 }
 
 html{
