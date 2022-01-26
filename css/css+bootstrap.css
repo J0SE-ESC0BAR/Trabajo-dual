@@ -1,7 +1,7 @@
 /*Modifica el contendedor de index*/
 .container {
-    background: #000;
-    color: thistle;
+    background: rgb(36, 46, 73);
+    color: rgb(255, 255, 255);
 }
 
 /*Modifica la barra de navegacion*/
@@ -14,3 +14,12 @@ body{
     padding: 0;
     background-image: url("/images/FondoHTML.png");
 }
+
+.fs-5{ /*Logo de pie de pag*/
+    color: violet;
+}
+footer {
+    /*Pie de página*/
+    text-align: center;
+    background-color: rgb(36, 47, 83);
+  }
