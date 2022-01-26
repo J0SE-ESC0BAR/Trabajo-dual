@@ -7,6 +7,10 @@ body {
   /*Imagen de fondo*/
 }
 
+#hr {
+  color: red; border-width: 3px; font-size: 20%
+}
+
 #t{/*Titulo*/
   background-color: #000;
 }
@@ -29,19 +33,17 @@ display: block;
 
 #c {
   /*Cuerpo*/
+  color: darkgrey;
   width: 80%;
   float:right;
   border-radius: 5px;
   border:3px solid black ;
-  background: linear-gradient(#58c718, #c427a9);
-  color: rgb(0, 0, 0,.8); 
+  background: rgba(0,0,0, .5);
   margin-bottom: 15px;
   padding: 15px;
   box-shadow: 1px 0 4px rgb(0,0,0,.2);
   
 }
-  
- 
 
 footer {
   /*Pie de página*/
@@ -61,7 +63,7 @@ body{
     margin: 50px auto;
     width: 400px;
     padding: 30px;
-    background: rgba(0,0,0, .5);
+    background: rgba(0,0,0,.5);
     border-radius: 10px;
 }
 .contenedor h2{
