@@ -32,9 +32,9 @@ display: block;
   width: 80%;
   float:right;
   border-radius: 5px;
-  border:1px solid black ;
+  border:3px solid black ;
   background: linear-gradient(#58c718, #c427a9);
-  color: rgb(0, 0, 0); 
+  color: rgb(0, 0, 0,.8); 
   margin-bottom: 15px;
   padding: 15px;
   box-shadow: 1px 0 4px rgb(0,0,0,.2);
@@ -55,7 +55,7 @@ html{
 body{
     margin: 0;
     padding: 0;
-    background: linear-gradient(#7209b7, #3f37c0);
+    background: linear-gradient(#0c09b7, #41631b);
 }
 .contenedor{
     margin: 50px auto;
