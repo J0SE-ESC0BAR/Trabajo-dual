@@ -1,0 +1,10 @@
+/*Modifica el contendedor de index*/
+.container {
+    background: #000;
+    color: thistle;
+}
+
+/*Modifica la barra de navegacion*/
+.navbar{
+    background-color: rgb(202, 45, 45);
+}
