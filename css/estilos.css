@@ -45,6 +45,7 @@ display: block;
 footer {
   /*Pie de página*/
   text-align: center;
+  background-color: black!important;
 }
 
 html{
