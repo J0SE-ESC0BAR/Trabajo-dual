@@ -55,7 +55,7 @@ html{
 body{
     margin: 0;
     padding: 0;
-    background: linear-gradient(#0c09b7, #41631b);
+    background: linear-gradient(#0c09b7, #4f8511);
 }
 .contenedor{
     margin: 50px auto;
@@ -82,4 +82,14 @@ body{
     border: none;
     border-bottom: 1px solid #fff;
     margin-bottom: 30px;
+}
+
+.contenedor .elemento input[type="submit"]{
+  background: linear-gradient(#090cb7, #631b57);
+  border:none;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 15px;
+  margin-top: 30px;
 }
