@@ -7,17 +7,37 @@ body {
   /*Imagen de fondo*/
 }
 
-#t {
-  /*Titulo*/
-  font-size: 300%;
-  text-align: center;
+#t{/*Titulo*/
   background-color: #000;
+}
+
+nav {
+  width: 20%;
+  float:left
+}
+
+nav a{
+  background-color: aquamarine;
+  border-radius: 10px 0 10px 0;
+color: mediumspringgreen;
+margin: 10px;
+padding: 10px;
+text-decoration: none;
+display: block;
+
 }
 
 #c {
   /*Cuerpo*/
   background-color: rgba(0, 140, 255, 0.878);
+  color: rgb(0, 0, 0); 
+  margin-left: 10pt;
+   margin-right: 10px
+  width: 75%;
+  float:right
 }
+  
+ 
 
 #pie {
   /*Pie de página*/
