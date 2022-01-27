@@ -1,0 +1,28 @@
+/*Modificador de contenedores*/
+.container-xl{
+    background: rgb(3, 8, 36);
+    color: white;
+    border-radius: 10px;
+}
+
+/*Modifica la barra de navegacion*/
+.navbar{
+    background-color: currentColor;
+    border-radius: 10px;
+}
+
+
+body{
+    background-color: chocolate;
+}
+
+.fs-5{ /*Logo de pie de pag*/
+    color: violet;
+}
+footer {
+    /*Pie de página*/
+    text-align: center;
+    
+    background: rgb(3, 24, 73);
+    color: rgb(255, 255, 255);
+}
