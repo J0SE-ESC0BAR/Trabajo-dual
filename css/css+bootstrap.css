@@ -1,11 +1,15 @@
 /*Modifica el contendedor de index*/
 .container {
-    background: #000;
-    color: thistle;
+    background: rgb(36, 46, 73);
+    color: rgb(255, 255, 255);
+    height: auto;
+    width: auto;
+    border-radius: 10px;
 }
 
 /*Modifica la barra de navegacion*/
 .navbar{
+<<<<<<< HEAD
     background-color: rgb(202, 45, 45);
 }
 
@@ -40,3 +44,25 @@
     padding: 15px;
     margin-top: 30px;
   }
+=======
+    background-color: currentColor;
+    border-radius: 10px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("/images/FondoHTML.png");
+}
+
+.fs-5{ /*Logo de pie de pag*/
+    color: violet;
+}
+footer {
+    /*Pie de página*/
+    text-align: center;
+    
+    background: rgb(3, 24, 73);
+    color: rgb(255, 255, 255);
+}
+>>>>>>> 336251ea5213fc2163120bb4082326e06e81ca93
