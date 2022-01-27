@@ -1,10 +1,19 @@
 /*Modificador de contenedores*/
-.container-xl{
+.container-fluid-1{
     background: rgb(3, 8, 36);
     color: white;
     border-radius: 10px;
+    border: cyan;
+    width: auto;
 }
-
+.container-fluid-1 p{
+    margin: 30px;
+}
+.container-fluid-1 h1{
+    margin: 40px;
+    color: red;
+    font-style: italic;
+}
 /*Modifica la barra de navegacion*/
 .navbar{
     background-color: currentColor;
@@ -13,11 +22,12 @@
 
 
 body{
-    background-color: chocolate;
+    background-image: url("/images/fuondo.png");
+    background-color: yellow;
 }
 
-.fs-5{ /*Logo de pie de pag*/
-    color: violet;
+.fs-3{ /*Logo de pie de pag*/
+    color: rgb(105, 206, 11);
 }
 footer {
     /*Pie de página*/
