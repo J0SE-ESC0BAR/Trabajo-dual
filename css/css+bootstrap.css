@@ -1,15 +1,11 @@
 /*Modifica el contendedor de index*/
 .container {
-    background: rgb(36, 46, 73);
-    color: rgb(255, 255, 255);
-    height: auto;
-    width: auto;
-    border-radius: 10px;
+    background: #000;
+    color: thistle;
 }
 
 /*Modifica la barra de navegacion*/
 .navbar{
-<<<<<<< HEAD
     background-color: rgb(202, 45, 45);
 }
 
@@ -26,7 +22,50 @@
     text-align: center;
 }
 
+.form-control{
+    width: 100%;
+    padding: 10px 0;
+    color: rgb(20, 19, 19);
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(15, 15, 15);
+    margin-bottom: 30px;
 }
+.w-100[type="submit"]{
+    background: linear-gradient(#090cb7, #631b57);
+    border:none;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 30px;
+  }/*Modifica el contendedor de index*/
+.container {
+    background: rgb(36, 46, 73);
+    color: rgb(255, 255, 255);
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+}
+
+/*Modifica la barra de navegacion*/
+.navbar{
+    background-color: rgb(202, 45, 45);
+}
+
+.text-center{
+    background: linear-gradient(#09b74c, #2e2727);
+}
+
+
+.h3 {
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 30px;
+    color: #1d27b3;
+    text-align: center;
+}
+
 .form-control{
     padding: 10px 0;
     color: rgb(20, 19, 19);
@@ -43,10 +82,6 @@
     cursor: pointer;
     padding: 15px;
     margin-top: 30px;
-  }
-=======
-    background-color: currentColor;
-    border-radius: 10px;
 }
 
 body{
@@ -65,4 +100,4 @@ footer {
     background: rgb(3, 24, 73);
     color: rgb(255, 255, 255);
 }
->>>>>>> 336251ea5213fc2163120bb4082326e06e81ca93
+  
