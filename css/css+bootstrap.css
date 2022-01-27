@@ -1,3 +1,23 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("/images/FondoHTML.png");
+}
+
+.fs-5{ /*Logo de pie de pag*/
+    color: violet;
+}
+footer {
+    /*Pie de página*/
+    text-align: center;
+    
+    background: rgb(3, 24, 73);
+    color: rgb(255, 255, 255);
+}
+  /*kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk*/
+
 /*Modifica el contendedor de index*/
 .container {
     background: #000;
@@ -83,21 +103,3 @@
     padding: 15px;
     margin-top: 30px;
 }
-
-body{
-    margin: 0;
-    padding: 0;
-    background-image: url("/images/FondoHTML.png");
-}
-
-.fs-5{ /*Logo de pie de pag*/
-    color: violet;
-}
-footer {
-    /*Pie de página*/
-    text-align: center;
-    
-    background: rgb(3, 24, 73);
-    color: rgb(255, 255, 255);
-}
-  
