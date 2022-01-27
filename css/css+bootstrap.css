@@ -74,15 +74,20 @@ footer {
 }
 
 .text-center{
-    background: linear-gradient(#09b74c, #2e2727);
+    background: linear-gradient(#14be55, #0f0e0e);
 }
 
+.contenedor{
+    margin: 70px auto;
+    width: 550px;
+    padding: 30px;
+    background: rgba(0,0,0, .5);
+    border-radius: 10px;
+}
 
 .h3 {
-    margin: 0 0 30px;
-    padding: 0;
     font-size: 30px;
-    color: #1d27b3;
+    color: rgb(199, 20, 20);
     text-align: center;
 }
 
