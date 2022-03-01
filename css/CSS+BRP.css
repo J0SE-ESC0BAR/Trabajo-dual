@@ -3,26 +3,24 @@
   background: rgb(3, 8, 36);
   color: white;
   border-radius: 10px;
-  border: cyan;
-  width: auto;
 }
 .container-fluid-1 p {
-  margin: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
+
 .container-fluid-1 h1 {
-  margin: 40px;
   color: red;
   font-style: italic;
+  margin: 25px;
 }
 /*Modifica la barra de navegacion*/
 .navbar {
   background-color: currentColor;
-  border-radius: 10px;
 }
 
 body {
   background-image: url("/images/fuondo.png");
-  background-color: yellow;
 }
 
 .fs-3 {
